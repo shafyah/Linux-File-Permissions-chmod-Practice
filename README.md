@@ -21,7 +21,7 @@ And **three levels of access**:
 ---
 
 ##  Permissions Flowchart
-[flowchart.png](./flowchart.png)
+![Flowchart](./flowchart.png)  
 
 ##  Task: Apply chmod to a Python File
 
@@ -38,8 +38,8 @@ ls -l test.py
 
 ## Expected output:
 
-[Linux.png](./linux.png)
-[Linux2.png](./linux2.png)
+![Linux Screenshot 1](./linux.png)
+![Linux Screenshot 2](./linux2.png)
 
 
 
