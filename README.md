@@ -47,36 +47,23 @@ flowchart TD
     I --> R[Execute (x)]
 
     J & K & L & M & N & O & P & Q & R --> S[Access Allowed or Denied]
+```
 
 
 ##  Task: Apply chmod to a Python File
 
-### Create a file:
-```bash
+### 1- Create a file:
 nano test.py
-
-python
-نسخ
-تحرير
+### 2- Add simple content
 print("Testing permissions")
-Save and exit:
+### 3-Save and exit:
 Ctrl + O, Enter, then Ctrl + X
-
-Apply chmod to set permissions to rwxrwxr-x:
-bash
-
+### 4-Apply chmod to set permissions to rwxrwxr-x:
 chmod 775 test.py
-Confirm the new permissions:
-bash
-ن
+### 5- Confirm the new permissions:
 ls -l test.py
-Expected output:
-bash
 
--rwxrwxr-x 1 user user ... test.py
- Screenshot
-Below is the screenshot showing the file permissions after using chmod:
-
+## Expected output:
 
 [linux.png](./linux.png)
 [linux2.png](./linux2.png)
