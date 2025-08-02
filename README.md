@@ -38,8 +38,8 @@ ls -l test.py
 
 ## Expected output:
 
-![Linux Screenshot 1](./linux.png)
-![Linux Screenshot 2](./linux2.png)
+![Linux Screenshot 1](./Linux.png)
+![Linux Screenshot 2](./Linux2.png)
 
 
 
