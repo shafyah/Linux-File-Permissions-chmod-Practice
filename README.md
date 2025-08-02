@@ -21,34 +21,7 @@ And **three levels of access**:
 ---
 
 ##  Permissions Flowchart
-
-```mermaid
-flowchart TD
-    A[Start] --> B[File or Directory]
-    B --> C{Check Who is Accessing}
-    C --> D[Owner]
-    C --> E[Group]
-    C --> F[Others]
-
-    D --> G{Permission Type}
-    E --> H{Permission Type}
-    F --> I{Permission Type}
-
-    G --> J[Read (r)]
-    G --> K[Write (w)]
-    G --> L[Execute (x)]
-
-    H --> M[Read (r)]
-    H --> N[Write (w)]
-    H --> O[Execute (x)]
-
-    I --> P[Read (r)]
-    I --> Q[Write (w)]
-    I --> R[Execute (x)]
-
-    J & K & L & M & N & O & P & Q & R --> S[Access Allowed or Denied]
-```
-
+[flowchart.png](./flowchart.png)
 
 ##  Task: Apply chmod to a Python File
 
