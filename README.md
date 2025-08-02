@@ -38,8 +38,8 @@ ls -l test.py
 
 ## Expected output:
 
-[linux.png](./linux.png)
-[linux2.png](./linux2.png)
+[Linux.png](./linux.png)
+[Linux2.png](./linux2.png)
 
 
 
